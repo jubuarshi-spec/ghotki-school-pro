@@ -1,0 +1,9 @@
+{
+  "name": "Ghotki School Pro - By Subash Arshi",
+  "short_name": "GhotkiPro",
+  "description": "Sindhi Voice Attendance + District Rank - Made in Ghotki",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#061a40",
+  "theme_color": "#0a3d8f"
+}

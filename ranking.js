@@ -1,0 +1,4 @@
+function renderLeaderboard(){
+ let b=document.getElementById('board'),myS=localStorage.getItem('schoolName')||'My School',myD=localStorage.getItem('district')||'Ghotki';
+ b.innerHTML=`<div style="display:flex;justify-content:space-between;padding:8px;background:#fff3cd;border-radius:8px"><span>1. ${myS} (YOU)</span><b>🔥 ${localStorage.getItem('streak')||1} days</b></div><div style="display:flex;justify-content:space-between;padding:8px;border-bottom:1px solid #eee"><span>2. Govt High Ghotki City</span><b>🔥 3 days</b></div><div style="display:flex;justify-content:space-between;padding:8px"><span>3. Govt Boys Mirpur</span><b>🔥 2 days</b></div>`;
+}

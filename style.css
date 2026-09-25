@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI;background:#eef2ff}
+#loader{position:fixed;inset:0;background:linear-gradient(135deg,#061a40,#0a3d8f);display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:9999;color:white}
+.spinner{width:60px;height:60px;border:6px solid rgba(255,255,255,.2);border-top:6px solid #fff;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.screen{display:none;position:fixed;inset:0;overflow:auto;background:linear-gradient(135deg,#061a40,#0a3d8f);padding:15px}
+.card{background:white;max-width:440px;margin:30px auto;border-radius:20px;padding:25px}
+.card input,.card select{width:100%;padding:12px;margin:6px 0;border:2px solid #dce4ff;border-radius:10px}
+.btn{width:100%;padding:14px;background:linear-gradient(90deg,#0a3d8f,#00d4ff);color:white;border:none;border-radius:12px;font-weight:bold;margin-top:10px;cursor:pointer}
+#mainApp{position:static;display:none;background:#eef2ff;min-height:100vh}
+header{background:linear-gradient(90deg,#0a3d8f,#00d4ff);color:white;padding:18px;display:flex;justify-content:space-between;flex-wrap:wrap}
+.badge{background:rgba(255,255,255,.2);padding:5px 12px;border-radius:20px;font-size:11px;margin-left:5px}.gold{background:gold;color:#000;font-weight:bold}
+.stats{display:flex;background:white;margin:12px;border-radius:12px;padding:12px;text-align:center}.stats div{flex:1}.stats b{display:block;font-size:20px;color:#0a3d8f}
+.unique-bar{background:linear-gradient(90deg,#ff6a00,#ee0979);padding:12px;border-radius:12px;margin:0 12px;text-align:center;color:white}
+.voice-btn{background:white;color:#ee0979;border:none;padding:12px 18px;border-radius:25px;font-weight:bold;cursor:pointer}
+.box{background:white;margin:12px;border-radius:12px;padding:14px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box input,.box select{padding:11px;border:1px solid #ccc;border-radius:8px;width:100%}
+table{width:100%;border-collapse:collapse;font-size:13px}thead{background:#0a3d8f;color:white}th,td{padding:8px;border-bottom:1px solid #eee}
